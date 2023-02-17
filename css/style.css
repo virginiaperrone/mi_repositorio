@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.header__nav {
+  position: sticky;
+  top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: #0d3728;
+  color: white;
+  padding: 1rem 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.header__nav--list {
+  list-style: none;
+  display: flex;
+}
+
+.header__nav--item {
+  margin-left: 1.5rem;
+}
+
+.header__nav--link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+#intro_section {
+  background-color: white;
+}
+
+.presentacion {
+  background-color: black;
+  color: white;
+  padding: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#presentacion_inicio {
+  color: #0d3728;
+}
+
+h1 {
+  color: #0d3728;
+}
+
+h2 {
+  color: #0d3728;
+}
+
+.footer__titulo {
+  font-family: "Unbounded", cursive;
+  margin: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.header__title {
+  margin-top: 1rem;
+}
+
+#intro__section {
+  padding: 5rem;
+}
+
+.intro__section--presentacion {
+  display: inline-block;
+  margin: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #0d3728;
+}
+
+.intro__section--imagen {
+  width: 100%;
+  text-align: right;
+}
+
+.footer {
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+#footer__contactame {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer__icon {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 1rem 0;
+  justify-content: center;
+}
+
+.footer__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__bottom {
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+  font-size: 0.5rem;
+}
+
+#footer__bottom--copyright {
+  text-align: center;
+  font-family: "Unbounded", cursive;
+  font-size: 0.5rem;
+}
+
+.section__titulo {
+  margin: 1rem 0rem;
+  text-align: center;
+}
+
+.section__description {
+  text-align: center;
+  margin: 2rem;
+}
+
+.subtitulo_paginas {
+  margin: 1rem 0rem;
+  text-decoration: underline;
+  color: #0d3728;
+}
+
+.subtitulo_pagina_blacksection {
+  margin: 0.5rem 0rem;
+  text-decoration: underline;
+  color: white;
+}
+
+.display_nombreapellido {
+  margin: 1rem 0rem;
+}
+
+.pregunta_formulario {
+  margin: 1rem 0rem;
+}
+
+.respuesta_formulario {
+  padding-right: 2rem;
+  display: flex;
+}
+
+.texto_respuesta {
+  padding-left: 1rem;
+}
+
+.boton_enviar {
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.row2 {
+  display: flex;
+  justify-content: left;
+}
+
+.iframe__map {
+  margin: 1rem 0rem;
+  padding-bottom: 1rem;
+  max-width: 100%;
+}
+
+#map__section {
+  padding: 0.5rem 0rem;
+  background-color: black;
+  align-items: center;
+}
+
+.section__form {
+  border: none;
+}
+
+.intro__section {
+  text-align: center;
+}
+
+.blacksection {
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.row3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.section__text {
+  padding: 1rem;
+}
+
+.section__foto {
+  padding: 1rem;
+}
+
+.blacksection__text {
+  padding: 1rem;
+  font-size: medium;
+}
+
+.blacksection__fotobig {
+  padding: 1rem;
+  max-width: 100%;
+  min-width: 50%;
+}
+
+.blacksection__foto {
+  min-width: 20%;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+}
+
+@media (min-width: 992px) {
+  #grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas:
+      "foto1 text1 text1"
+      "text2 text2 foto2"
+      "foto3 text3 text3"
+      "text4 text4 foto4";
+    padding: 2rem;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  #grilla {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-template-areas:
+      "text1"
+      "foto1"
+      "text2"
+      "foto2"
+      "text3"
+      "foto3"
+      "text4"
+      "foto4";
+    padding: 1rem;
+    justify-items: center;
+    align-items: center;
+  }
+}
+
+.grid__foto1 {
+  grid-area: foto1;
+}
+
+.grid__foto2 {
+  grid-area: foto2;
+}
+
+.grid__foto3 {
+  grid-area: foto3;
+}
+
+.grid__foto4 {
+  grid-area: foto4;
+}
+
+.grid__text1 {
+  grid-area: text1;
+}
+
+.grid__text2 {
+  grid-area: text2;
+}
+
+.grid__text3 {
+  grid-area: text3;
+}
+
+.grid__text4 {
+  grid-area: text4;
+}

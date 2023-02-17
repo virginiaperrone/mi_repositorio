@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="shortcut icon" href="../IMG/1_Favicon.png" type="image/x-icon" />
+    <title>Contactame</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="conteiner">
+        <div class="row">
+          <a href="../index.html" class="header__logo">
+            <img src="../img/1__logo_einar.png" alt="Logo personal" />
+          </a>
+          <nav class="header__nav">
+            <ul class="header__nav--list">
+              <li class="header__nav--item">
+                <a class="header__nav--link" href="../index.html">Inicio</a>
+              </li>
+              <li class="header__nav--item">
+                <a class="header__nav--link" href="acerca-de-mi.html"
+                  >Acerca de mi</a
+                >
+              </li>
+              <li class="header__nav--item">
+                <a class="header__nav--link" href="proyectos.html">Proyectos</a>
+              </li>
+              <li class="header__nav--item">
+                <a class="header__nav--link" href="contactame.html"
+                  >Contactame</a
+                >
+              </li>
+              <li class="header__nav--item">
+                <a class="header__nav--link" href="testimonios.html"
+                  >Testimonios</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__title">
+          <img
+            src="../img/1_developer_designer.png"
+            alt="Developer - Designer"
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h1 class="section__titulo">¡Hablemos!</h1>
+        <div>
+          <div class="row3">
+            <form action="">
+              <fieldset class="section__form">
+                <div class="conteiner">
+                  <div class="display_nombreapellido">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" />
+                  </div>
+                  <div class="display_nombreapellido">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" />
+                  </div>
+                  <div class="pregunta_formulario">
+                    <p>¿Ya trabajaste conmigo?</p>
+                  </div>
+                  <div class="row2">
+                    <div class="respuesta_formulario">
+                      <input
+                        type="radio"
+                        name="trabajaste_conmigo"
+                        value="si"
+                      />
+                      <div class="texto_respuesta">Sí,¡claro! 😊</div>
+                    </div>
+                    <div class="respuesta_formulario">
+                      <input
+                        type="radio"
+                        name="trabajaste_conmigo"
+                        value="no"
+                      />
+                      <div class="texto_respuesta">
+                        No, es la primera vez 🤔
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="pregunta_formulario">
+                      <label for="tema">¿Qué te interesa?</label>
+                    </div>
+                    <select name="tema" id="tema">
+                      <option value="diseño">Diseño Gráfico</option>
+                      <option value="desarrollo">Desarrollo Web</option>
+                      <option value="ambas">Ambas opciones</option>
+                    </select>
+                  </div>
+                  <div>
+                    <div class="pregunta_formulario">
+                      <label for="mensaje">Mensaje:</label>
+                    </div>
+                    <textarea
+                      name="mensaje"
+                      id=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                  <div class="pregunta_formulario">
+                    <input type="checkbox" / name="acepta" value="1"> ¿Aceptas
+                    recibir newsletter?
+                  </div>
+                  <div class="row2">
+                    <div class="boton_enviar">
+                      <input type="submit" value="Enviar" />
+                    </div>
+                    <div class="boton_enviar">
+                      <input type="reset" value="Borrar" />
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+            <img src="../img/contactame.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="blacksection">
+        <div class="blacksection__text">
+          <strong><p>Dirección oficinas</p></strong>
+        </div>
+        <div class="iframe__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.3338291284545!2d-60.709264485420206!3d-31.65208541485807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9a66233b129%3A0x420ddb26cd268e3e!2s25%20de%20Mayo%202059%2C%20S3000%20FTL%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1674861386594!5m2!1ses!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="conteiner">
+        <div class="footer__titulo">
+          <h2>ARE YOU READY?</h2>
+        </div>
+        <p id="footer__contactame">CONTACTAME</p>
+        <div class="footer__flex">
+          <div>
+            <a href="https://www.instagram.com/">
+              <img class="footer__icon" src="../img/1_ig.png" alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="https://ar.linkedin.com/">
+              <img class="footer__icon" src="../img/1_li.png" alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.behance.net/">
+              <img class="footer__icon" src="../img/1_be.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="conteiner">
+          <p id="footer__bottom--copyright">© Design by Einar B.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
